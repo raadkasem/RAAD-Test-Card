@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cloud-wopi-service
+
+server:
+  servlet:
+    context-path: /
+  port: 8000
+
+springdoc:
+  swagger-ui:
+    path: /apidoc.html
+    operationsSorter: method
